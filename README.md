@@ -81,9 +81,11 @@ This is a Maven Spring Boot application that can be used to perform the followin
 
   
 
-    Output: 200 OK – if the account is successfully created 
+    Output: 
+    
+        200 OK – if the account is successfully created 
 
-    400 Bad Request – if the account creation was not successful 
+        400 Bad Request – if the account creation was not successful 
 
   
 
@@ -97,9 +99,11 @@ This is a Maven Spring Boot application that can be used to perform the followin
 
         amount – amount to be deposited into the account 
 
-    Output: 200 OK – if the amount was successfully deposited into the account 
+    Output: 
+                
+        200 OK – if the amount was successfully deposited into the account 
 
-      400 Bad request – if the amount could not be deposited into the account 
+        400 Bad request – if the amount could not be deposited into the account 
 
   
 
@@ -113,9 +117,11 @@ This is a Maven Spring Boot application that can be used to perform the followin
 
         amount – amount to be deposited into the account 
 
-    Output: 200 OK – if the amount was successfully withdrawn from the account 
+    Output: 
+    
+        200 OK – if the amount was successfully withdrawn from the account 
 
-      400 Bad request – if the amount could not be withdrawn from the account 
+        400 Bad request – if the amount could not be withdrawn from the account 
 
   
 
@@ -127,8 +133,10 @@ This is a Maven Spring Boot application that can be used to perform the followin
 
         accnumber – account number 
 
-   Output: 200 OK alongwith the balance in the body of the response – if the balance enquiry was       successful 
+   Output: 
+   
+        200 OK alongwith the balance in the body of the response – if the balance enquiry was       successful 
 
-   400 Bad request – if the balance enquiry failed 
+        400 Bad request – if the balance enquiry failed 
 
 
