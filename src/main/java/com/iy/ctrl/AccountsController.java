@@ -1,5 +1,5 @@
 /**
- * The class provides API's to the user for performing CRUD operation on Account Resource
+ * The class provides API's to the user for performing CRUD operation on Account Resource.
  */
 
 package com.iy.ctrl;
