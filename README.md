@@ -8,21 +8,25 @@ This is a Maven Spring Boot application that can be used to perform the followin
 
 ## How to Build and Run 
 
-This application is packaged as a jar which has Tomcat 8 embedded. No Tomcat or JBoss installation is necessary. You run it using the java -jar command.
+1. Open the Git Repository
 
-1. Clone the repository
-2. Make sure you have JDK 1.8
-3. You can build the project and run the tests by running mvn clean install
-4. Once successfully built, you can run the service by one of these two methods:
+2. Download the zip file 
 
+3. Unzip the file 
 
-  
+4. Open STS or Eclipse 
+
+5. Follow the following steps to import the project into IDE
+
+        File -> Import -> Maven -> Existing Maven Projects -> Navigate and select the unzipped project folder which contains pom.xml 
+
+6. After importing, right click the project folder in project explorer -> Run As -> Java Application 
 
 ## Assumptions: 
 
- 1. The application uses the in-memory H2 database. 
+1. The application uses the in-memory H2 database. 
 
- 2. The application considers the following attributes for the account resource –  
+2. The application considers the following attributes for the account resource –  
 
       - Account Number (accNumber) 
 
